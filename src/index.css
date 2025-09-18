@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebarScroll::-webkit-scrollbar {
+  background: transparent;
+  width: 3px;
+  margin-left: 5px;
+}
+
+.sidebarScroll::-webkit-scrollbar-thumb {
+  background-color: #acacac;
+  border-radius: 50px;
+  height: 20px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
